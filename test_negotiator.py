@@ -2,12 +2,14 @@ import argparse
 import csv
 import gc
 import os
+from itertools import combinations_with_replacement
 from itertools import product
 from multiprocessing import Pool
 
 import dill
 dill.extend(False)
 from negmas import Issue, UtilityFunction
+from envs.domain_loader import load_genius_domain
 from sao.my_negotiators import *
 from sao.my_sao import MySAOMechanism
 from envs.rl_negotiator import TestRLBOANegotiator
@@ -22,7 +24,14 @@ ISSUE_NAMES = [
     'Grocery',
     'thompson',
     'Car',
-    'EnergySmall_A'
+    'EnergySmall_A',
+    'Coffee',
+    'Camera',
+    'Lunch',
+    'SmartPhone',
+    'Kitchen',
+    'Travel',
+    'party',
 ]
 AGENT_LIST = [
     'Boulware',
@@ -35,6 +44,7 @@ AGENT_LIST = [
     'Atlas3',
     'AgentGG',
 ]
+CHECKPOINT_NAME = 'checkpoint.zip'
 
 
 def bool_tag(x):
@@ -52,8 +62,10 @@ def resolve_model_path(load_path, issue, agent):
 
     name = model_name(issue, agent)
     candidates = [
+        os.path.join(normalized, CHECKPOINT_NAME),
         os.path.join(normalized, name),
         os.path.join(os.path.dirname(normalized), name),
+        os.path.join(os.path.dirname(normalized), CHECKPOINT_NAME),
     ]
     for candidate in candidates:
         if os.path.isfile(candidate):
@@ -67,9 +79,20 @@ def resolve_save_path(load_path, issue, agent, plot):
     normalized = os.path.normpath(load_path)
     base = os.path.basename(normalized)
     model_stem = model_name(issue, agent).rsplit('.', maxsplit=1)[0]
-    if base == model_stem or base.startswith(model_stem + '_'):
+    if os.path.isfile(normalized):
         normalized = os.path.dirname(normalized)
-    return os.path.join(normalized, 'img' if plot else 'csv')
+    elif base == model_stem or base.startswith(model_stem + '_'):
+        normalized = os.path.dirname(normalized)
+    return os.path.join(
+        normalized,
+        'img' if plot else 'csv',
+        f'{agent[0]}-{agent[1]}',
+        issue,
+    )
+
+
+def result_condition_path(save_root, det, noise):
+    return os.path.join(save_root, f'det={det}_noise={noise}')
 
 
 def get_opponent(opponent, agent_number=0, add_noise=False):
@@ -96,25 +119,8 @@ def get_opponent(opponent, agent_number=0, add_noise=False):
     return TimeBasedNegotiator(name=f'Linear{agent_number}', aspiration_type=1.0, add_noise=add_noise)
 
 
-def add_participants(session, my_agent, opponent0, opponent1, util1, util2, util3, rl_position):
-    participants = [
-        (my_agent, util1),
-        (opponent0, util2),
-        (opponent1, util3),
-    ]
-    if rl_position == 1:
-        participants = [participants[1], participants[0], participants[2]]
-    elif rl_position == 2:
-        participants = [participants[1], participants[2], participants[0]]
-    for agent, ufun in participants:
-        session.add(agent, ufun=ufun)
-
-
-def run_session(model_path, save_path, opponent, issue, det, noise, rl_position, n_actions, plot):
-    domain, _ = Issue.from_genius('./domain/' + issue + '/domain.xml')
-    util1, _ = UtilityFunction.from_genius('./domain/' + issue + '/utility1.xml')
-    util2, _ = UtilityFunction.from_genius('./domain/' + issue + '/utility2.xml')
-    util3, _ = UtilityFunction.from_genius('./domain/' + issue + '/utility3.xml')
+def run_session(model_path, save_path, opponent, issue, det, noise, n_actions, plot):
+    domain, (util1, util2, util3) = load_genius_domain(issue)
 
     session = MySAOMechanism(issues=domain, n_steps=80, avoid_ultimatum=False)
     opponent0 = get_opponent(opponent[0], agent_number=0, add_noise=noise)
@@ -126,7 +132,9 @@ def run_session(model_path, save_path, opponent, issue, det, noise, rl_position,
         deterministic=det,
         n_ranges=n_actions,
     )
-    add_participants(session, my_agent, opponent0, opponent1, util1, util2, util3, rl_position)
+    session.add(my_agent, ufun=util1)
+    session.add(opponent0, ufun=util2)
+    session.add(opponent1, ufun=util3)
 
     result = session.run()
 
@@ -163,14 +171,14 @@ def run_session(model_path, save_path, opponent, issue, det, noise, rl_position,
 
 
 def test_negotiator(config):
-    issue, agent, det, noise, save_path, load_path, episodes, rl_position, n_actions, plot = config
+    issue, agent, det, noise, save_path, load_path, episodes, n_actions, plot = config
     model_path = resolve_model_path(load_path, issue, agent)
     print(f'loaded_model:{model_path}')
     results = [['my_util', 'opp_util1', 'opp_util2', 'social', 'nash', 'agreement', 'step']]
 
     for _ in range(episodes):
         results.append(
-            run_session(model_path, save_path, agent, issue, det, noise, rl_position, n_actions, plot)
+            run_session(model_path, save_path, agent, issue, det, noise, n_actions, plot)
         )
 
     if not plot:
@@ -186,42 +194,64 @@ def test_negotiator(config):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Evaluate trained three-party RLBOA negotiators.')
-    parser.add_argument('--load-path', default='./results/260627-133356/')
+    parser.add_argument('--agents', '-a', nargs='*', choices=AGENT_LIST)
+    parser.add_argument('--issues', '--issue', '-i', nargs='*', choices=ISSUE_NAMES)
+    parser.add_argument('--model', '-m')
+    parser.add_argument('--load-path')
     parser.add_argument('--domain', choices=ISSUE_NAMES)
     parser.add_argument('--opponent1', choices=AGENT_LIST)
     parser.add_argument('--opponent2', choices=AGENT_LIST)
-    parser.add_argument('--episodes', type=int, default=100)
-    parser.add_argument('--rl-position', type=int, choices=[0, 1, 2], default=0)
+    parser.add_argument('--episodes', '-e', type=int, default=100)
     parser.add_argument('--n-actions', type=int, default=10)
-    parser.add_argument('--deterministic', action='store_true', default=True)
+    parser.add_argument('--deterministic', action='store_true')
     parser.add_argument('--stochastic', action='store_true')
     parser.add_argument('--noise', action='store_true')
-    parser.add_argument('--plot', action='store_true')
+    parser.add_argument('--plot', '-p', action='store_true')
     parser.add_argument('--processes', type=int, default=None)
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
-    load_path = args.load_path
+def normalize_agents(agents):
+    if not agents:
+        return None
+    if len(agents) == 1:
+        return [agents[0], agents[0]]
+    return agents
 
-    det_values = [False] if args.stochastic else [args.deterministic]
-    noise_values = [args.noise]
+
+def build_jobs(args):
+    if args.issues or args.agents:
+        if not (args.issues and args.agents):
+            raise ValueError('--issues/-i and --agents/-a must be specified together')
+        agents = normalize_agents(args.agents)
+        if len(agents) == 2:
+            pairs = [agents]
+        else:
+            pairs = [list(pair) for pair in combinations_with_replacement(agents, 2)]
+        return [(issue, pair) for issue in args.issues for pair in pairs]
 
     if args.domain or args.opponent1 or args.opponent2:
         if not (args.domain and args.opponent1 and args.opponent2):
             raise ValueError('--domain, --opponent1, and --opponent2 must be specified together')
-        jobs = [(args.domain, [args.opponent1, args.opponent2])]
-    else:
-        jobs = [
-            (issue, [AGENT_LIST[i], AGENT_LIST[j]])
-            for issue in ISSUE_NAMES
-            for i in range(len(AGENT_LIST))
-            for j in range(i, len(AGENT_LIST))
-        ]
+        return [(args.domain, [args.opponent1, args.opponent2])]
 
-    save_path = resolve_save_path(load_path, jobs[0][0], jobs[0][1], args.plot)
-    os.makedirs(save_path, exist_ok=True)
+    return [
+        (issue, [AGENT_LIST[i], AGENT_LIST[j]])
+        for issue in ISSUE_NAMES
+        for i in range(len(AGENT_LIST))
+        for j in range(i, len(AGENT_LIST))
+    ]
+
+
+def main():
+    args = parse_args()
+    load_path = args.model or args.load_path
+    if not load_path:
+        raise ValueError('--model/-m or --load-path must be specified')
+
+    det_values = [False] if args.stochastic else [args.deterministic]
+    noise_values = [args.noise]
+    jobs = build_jobs(args)
 
     configs = [
         (
@@ -229,16 +259,17 @@ def main():
             agent,
             det,
             noise,
-            save_path,
+            result_condition_path(resolve_save_path(load_path, issue, agent, args.plot), det, noise),
             load_path,
             args.episodes,
-            args.rl_position,
             args.n_actions,
             args.plot,
         )
         for issue, agent in jobs
         for det, noise in product(det_values, noise_values)
     ]
+    for config in configs:
+        os.makedirs(config[4], exist_ok=True)
 
     if len(configs) == 1:
         test_negotiator(configs[0])

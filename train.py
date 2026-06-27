@@ -2,6 +2,7 @@ import argparse
 import distutils.version
 import os
 from datetime import datetime
+from itertools import combinations_with_replacement
 from multiprocessing import Pool
 
 import dill
@@ -17,6 +18,8 @@ dill.extend(True)
 
 
 ENV_NAME = 'RLBOA-{}-{}-{}-v0'
+MODEL_DIR_NAME = 'RLBOA_Negotiator'
+CHECKPOINT_NAME = 'checkpoint.zip'
 ISSUE_NAMES = [
     'Laptop',
     'ItexvsCypress',
@@ -24,7 +27,14 @@ ISSUE_NAMES = [
     'Grocery',
     'thompson',
     'Car',
-    'EnergySmall_A'
+    'EnergySmall_A',
+    'Coffee',
+    'Camera',
+    'Lunch',
+    'SmartPhone',
+    'Kitchen',
+    'Travel',
+    'party',
 ]
 AGENT_LIST = [
     'Boulware',
@@ -39,7 +49,7 @@ AGENT_LIST = [
 ]
 
 
-def register_neg_env(issue, agent, rl_position=0, n_actions=10, add_noise=True):
+def register_neg_env(issue, agent, n_actions=10, add_noise=True):
     env_name = ENV_NAME.format(issue, agent[0], agent[1])
     try:
         register(
@@ -48,8 +58,6 @@ def register_neg_env(issue, agent, rl_position=0, n_actions=10, add_noise=True):
             kwargs={
                 'domain': issue,
                 'opponent': agent,
-                'is_first': rl_position == 0,
-                'rl_position': rl_position,
                 'n_actions': n_actions,
                 'add_noise': add_noise,
             },
@@ -67,19 +75,22 @@ def run_rl(args):
         timesteps,
         n_envs,
         eval_episodes,
-        rl_position,
         n_actions,
         add_noise,
         save_path,
+        checkpoint_name,
     ) = args
 
-    env_name = register_neg_env(issue, agent, rl_position, n_actions, add_noise)
+    env_name = register_neg_env(issue, agent, n_actions, add_noise)
     f_name = env_name.split('-', maxsplit=1)[1]
     env = make_vec_env(env_name, n_envs=n_envs)
 
     model = PPO('MlpPolicy', env, verbose=1, device='cpu')
-    log_path = os.path.join(save_path, f_name)
-    model_path = os.path.join(save_path, f'{f_name}.zip')
+    is_single_checkpoint = checkpoint_name == CHECKPOINT_NAME
+    model_file = checkpoint_name if is_single_checkpoint else f'{f_name}.zip'
+    log_name = os.path.splitext(model_file)[0]
+    log_path = os.path.join(save_path, log_name)
+    model_path = os.path.join(save_path, model_file)
     model.set_logger(configure(log_path, ['stdout', 'tensorboard']))
     model.learn(total_timesteps=timesteps)
     model.save(model_path)
@@ -89,8 +100,11 @@ def run_rl(args):
     eval_env.test = True
     mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=eval_episodes)
     print(f'mean_reward:{mean_reward:.2f} +/- {std_reward:.2f}')
-    with open(save_path + 'result.csv', 'a') as f:
-        f.write(f'{issue},{agent[0]},{agent[1]},{rl_position},{mean_reward},{std_reward}\n')
+    with open(os.path.join(save_path, 'result.csv'), 'a') as f:
+        f.write(
+            f'{issue},{agent[0]}-{agent[1]},'
+            f'{timesteps},{n_envs},{n_actions},{model_path},{mean_reward},{std_reward}\n'
+        )
 
     env.close()
     eval_env.close()
@@ -99,37 +113,76 @@ def run_rl(args):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train RLBOA in a three-party SAOP negotiation.')
+    parser.add_argument('--agents', '-a', nargs='*', choices=AGENT_LIST)
+    parser.add_argument('--issue', '-i', nargs='*', choices=ISSUE_NAMES)
+    parser.add_argument('--save_path', '-sp', default='./results/')
     parser.add_argument('--domain', choices=ISSUE_NAMES)
     parser.add_argument('--opponent1', choices=AGENT_LIST)
     parser.add_argument('--opponent2', choices=AGENT_LIST)
-    parser.add_argument('--timesteps', type=int, default=100000)
-    parser.add_argument('--n-envs', type=int, default=4)
+    parser.add_argument('--timesteps', '-t', type=int, default=100000)
+    parser.add_argument('--n-envs', '--n_envs', '-n', dest='n_envs', type=int, default=4)
     parser.add_argument('--eval-episodes', type=int, default=100)
-    parser.add_argument('--rl-position', type=int, choices=[0, 1, 2], default=0)
     parser.add_argument('--n-actions', type=int, default=10)
     parser.add_argument('--no-noise', action='store_true')
     parser.add_argument('--processes', type=int, default=None)
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
-    save_path = './results/{}/'.format(datetime.now().strftime('%Y%m%d-%H%M%S')[2:])
-    os.makedirs(save_path)
-    with open(save_path + 'result.csv', 'w') as f:
-        f.write('domain,opponent1,opponent2,rl_position,mean,std\n')
+def normalize_agents(agents):
+    if not agents:
+        return None
+    if len(agents) == 1:
+        return [agents[0], agents[0]]
+    return agents
+
+
+def build_default_save_root(issues, agents, current_time, save_path):
+    if save_path != './results/':
+        return save_path if save_path.endswith(os.sep) else save_path + os.sep
+    return os.path.join(
+        './results',
+        f'{"-".join(issues)}_{"-".join(agents)}',
+        f'{current_time}-TA',
+    ) + os.sep
+
+
+def build_jobs(args):
+    if args.issue or args.agents:
+        if not (args.issue and args.agents):
+            raise ValueError('--issue/-i and --agents/-a must be specified together')
+        agents = normalize_agents(args.agents)
+        if len(agents) == 2:
+            pairs = [agents]
+        else:
+            pairs = [list(pair) for pair in combinations_with_replacement(agents, 2)]
+        return [(issue, pair) for issue in args.issue for pair in pairs], args.issue, args.agents
 
     if args.domain or args.opponent1 or args.opponent2:
         if not (args.domain and args.opponent1 and args.opponent2):
             raise ValueError('--domain, --opponent1, and --opponent2 must be specified together')
-        jobs = [(args.domain, [args.opponent1, args.opponent2])]
-    else:
-        jobs = [
-            (issue, [AGENT_LIST[i], AGENT_LIST[j]])
-            for issue in ISSUE_NAMES
-            for i in range(len(AGENT_LIST))
-            for j in range(i, len(AGENT_LIST))
-        ]
+        agents = [args.opponent1, args.opponent2]
+        return [(args.domain, agents)], [args.domain], agents
+
+    jobs = [
+        (issue, [AGENT_LIST[i], AGENT_LIST[j]])
+        for issue in ISSUE_NAMES
+        for i in range(len(AGENT_LIST))
+        for j in range(i, len(AGENT_LIST))
+    ]
+    return jobs, ISSUE_NAMES, AGENT_LIST
+
+
+def main():
+    args = parse_args()
+    jobs, issues, agents = build_jobs(args)
+    current_time = datetime.now().strftime('%Y%m%d-%H%M%S')
+    run_root = build_default_save_root(issues, agents, current_time, args.save_path)
+    save_path = os.path.join(run_root, MODEL_DIR_NAME)
+    os.makedirs(save_path, exist_ok=True)
+    with open(os.path.join(save_path, 'result.csv'), 'w') as f:
+        f.write('domain,opponents,total_timesteps,n_envs,n_actions,checkpoint,mean,std\n')
+
+    single_job = len(jobs) == 1
 
     run_args = [
         (
@@ -138,10 +191,10 @@ def main():
             args.timesteps,
             args.n_envs,
             args.eval_episodes,
-            args.rl_position,
             args.n_actions,
             not args.no_noise,
             save_path,
+            CHECKPOINT_NAME if single_job else None,
         )
         for issue, agent in jobs
     ]
