@@ -28,24 +28,19 @@ ISSUE_NAMES = [
     'thompson',
     'Car',
     'EnergySmall_A',
-    'Coffee',
-    'Camera',
-    'Lunch',
-    'SmartPhone',
-    'Kitchen',
-    'Travel',
-    'party',
+    # 'Coffee',
+    # 'Camera',
+    # 'Lunch',
+    # 'SmartPhone',
+    # 'Kitchen',
+    # 'Travel',
+    # 'party',
 ]
 AGENT_LIST = [
     'Boulware',
     'Linear',
     'Conceder',
-    'TitForTat1',
-    'TitForTat2',
-    'AgentK',
-    'HardHeaded',
     'Atlas3',
-    'AgentGG',
 ]
 
 
