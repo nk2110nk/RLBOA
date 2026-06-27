@@ -183,7 +183,59 @@ class RLBOANegotiator(RLNegotiator):
         return best_bid
 
     def get_bid_range(self):
-        return self.ordered_outcomes[self.range_index[self.target]:self.range_index[self.target+1]]
+        bids = self.ordered_outcomes[self.range_index[self.target]:self.range_index[self.target+1]]
+        if bids:
+            return bids
+
+        for offset in range(1, self.n_ranges):
+            lower = self.target - offset
+            if lower >= 0:
+                bids = self.ordered_outcomes[self.range_index[lower]:self.range_index[lower+1]]
+                if bids:
+                    return bids
+            upper = self.target + offset
+            if upper < self.n_ranges:
+                bids = self.ordered_outcomes[self.range_index[upper]:self.range_index[upper+1]]
+                if bids:
+                    return bids
+        return self.ordered_outcomes
 
     def set_target(self, target) -> None:
-        self.target = target
+        self.target = min(max(int(target), 0), self.n_ranges - 1)
+
+
+class TestRLBOANegotiator(RLBOANegotiator):
+    def __init__(self, domain, path, opponent, deterministic=True, n_ranges=10, **kwargs):
+        super().__init__(n_ranges=n_ranges, **kwargs)
+        self.model = PPO.load(path)
+        self.domain = domain
+        self.opponent = opponent
+        self.deterministic = deterministic
+        self.observer = None
+        self.states = None
+        self.actions = None
+
+    def on_ufun_changed(self):
+        super().on_ufun_changed()
+        self.observer = RLBOAObserve(self.domain, self._utility_function)
+
+    def _predict_target(self, state):
+        if self.observer is None:
+            self.observer = RLBOAObserve(self.domain, self._utility_function)
+        state_dict = None if state is None else state.__dict__
+        observation = self.observer(state_dict, self.opponent)
+        self.actions, self.states = self.model.predict(
+            observation,
+            state=self.states,
+            deterministic=self.deterministic,
+        )
+        self.set_target(self.actions)
+
+    def respond(self, state: MechanismState, offer: "Outcome") -> "ResponseType":
+        self._predict_target(state)
+        return super().respond(state, offer)
+
+    def propose(self, state: MechanismState) -> Optional["Outcome"]:
+        if self.actions is None:
+            self._predict_target(None)
+        return super().propose(state)

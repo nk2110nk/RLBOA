@@ -160,11 +160,11 @@ class NaiveEnv(gym.Env):
         elif self.opponent[self.agent_number] == 'HardHeaded':
             opponent = HardHeaded(name='HardHeaded{}'.format(self.agent_number), add_noise=add_noise)
         elif self.opponent[self.agent_number] == 'CUHKAgent':
-            opponent = CUHKAgent(add_noise=add_noise)
+            opponent = CUHKAgent(name='CUHKAgent{}'.format(self.agent_number), add_noise=add_noise)
         elif self.opponent[self.agent_number] == 'Atlas3':
-            opponent = Atlas3(add_noise=add_noise)
+            opponent = Atlas3(name='Atlas3{}'.format(self.agent_number), add_noise=add_noise)
         elif self.opponent[self.agent_number] == 'AgentGG':
-            opponent = AgentGG(add_noise=add_noise)
+            opponent = AgentGG(name='AgentGG{}'.format(self.agent_number), add_noise=add_noise)
         else:
             opponent = TimeBasedNegotiator(name='Linear', aspiration_type=1.0, add_noise=add_noise)
         return opponent
@@ -348,7 +348,7 @@ class RLBOAEnv(NaiveEnv):
             self.session.reset()
 
         self.session = MySAOMechanism(issues=self.domain, n_steps=80, avoid_ultimatum=False)
-        self.my_agent = RLBOANegotiator()
+        self.my_agent = RLBOANegotiator(n_ranges=self.n_actions)
         self.my_agent.name = 'RLAgent'
 
         self.agent_number = 0
@@ -404,6 +404,3 @@ class RLBOAEnv(NaiveEnv):
             return False
         next_index = (self.session._last_checked_negotiator + 1) % len(negotiators)
         return negotiators[next_index] is self.my_agent
-
-
-ThreePartyRLBOAEnv = RLBOAEnv

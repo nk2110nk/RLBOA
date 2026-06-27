@@ -148,11 +148,11 @@ class RLBOAObserve:
         self.domain = domain
         self.my_util = my_util
         self.observation_space = gym.spaces.Box(
-            np.array([0.0] * 7),
-            np.array([1.0] * 7),
+            np.array([0.0] * 7, dtype=np.float32),
+            np.array([1.0] * 7, dtype=np.float32),
             dtype=np.float32
         )
-        self.init_observation = np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+        self.init_observation = np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], dtype=np.float32)
         self.observation = np.empty_like(self.init_observation)
 
     def reset(self):
@@ -176,7 +176,7 @@ class RLBOAObserve:
             self.observation[5] = self.observation[2]
             self.observation[2] = self.my_util(state['current_offer'])            
         self.observation[6] = state['relative_time']
-        return self.observation
+        return self.observation.astype(np.float32, copy=False)
         
 '''
 class RLBOAObserve:
