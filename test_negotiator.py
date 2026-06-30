@@ -134,8 +134,8 @@ def run_session(model_path, save_path, opponent, issue, det, noise, n_actions, p
     )
     
     my_util = util3
-    opp_util1 = util1
-    opp_util2 = util2
+    opp_util1 = util2
+    opp_util2 = util1
     session.add(my_agent, ufun=my_util)
     session.add(opponent0, ufun=opp_util1)
     session.add(opponent1, ufun=opp_util2)

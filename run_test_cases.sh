@@ -52,6 +52,10 @@ if [[ "$DETERMINISTIC" == "1" && "$STOCHASTIC" == "1" ]]; then
 fi
 
 if [[ "$USE_DOCKER" == "1" && "${IN_TEST_CASE_DOCKER:-0}" != "1" && "$DRY_RUN" != "1" ]]; then
+  if ! command -v docker >/dev/null 2>&1; then
+    echo "docker command not found; running directly in the current environment."
+    USE_DOCKER=0
+  else
   exec docker run --rm \
     --user "$(id -u):$(id -g)" \
     --entrypoint /bin/bash \
@@ -72,6 +76,7 @@ if [[ "$USE_DOCKER" == "1" && "${IN_TEST_CASE_DOCKER:-0}" != "1" && "$DRY_RUN" !
     -e CASES="$CASES" \
     "$DOCKER_IMAGE" \
     ./run_test_cases.sh "$@"
+  fi
 fi
 
 raw_cases=()

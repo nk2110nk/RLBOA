@@ -1,0 +1,101 @@
+my_util	opp_util1	opp_util2	social	nash	agreement	step
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	12
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	54
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	20
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	57
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	12
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.7589600205856137	0.36252362476415817	0.5543055555555556	1.6757892009053275	0.15251215033551158	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	54
+0.7214778614020514	0.6704784151387018	0.7013666666666667	2.09332294320742	0.33927583810455153	{'Price': '$3.47', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	54
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	39
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	23
+0.6150356417531683	0.497576973864929	0.6395	1.7521126156180973	0.19570463321655296	{'Price': '$4.12', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	51
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	15
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	15
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	45
+0.854724544734678	0.3185742230710885	0.4574166666666667	1.630715434472433	0.12455145145807953	{'Price': '$4.37', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	51
+0.7110777585110817	0.3918232258928713	0.60275	1.705650984403953	0.1679362648685918	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	48
+0.5874083325455621	0.4353717096431129	0.58245	1.605230042188675	0.148956327975901	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	48
+0.854724544734678	0.3185742230710885	0.4574166666666667	1.630715434472433	0.12455145145807953	{'Price': '$4.37', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	48
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	15
+0.7110777585110817	0.3918232258928713	0.60275	1.705650984403953	0.1679362648685918	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	51
+0.3460907605223267	0.6474875067598076	0.706	1.6995782672821342	0.1582071472121041	{'Price': '$4.12', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': 'Full price'}	45
+0.854724544734678	0.3185742230710885	0.4574166666666667	1.630715434472433	0.12455145145807953	{'Price': '$4.37', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	45
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	15
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	23
+0.6150356417531683	0.497576973864929	0.6395	1.7521126156180973	0.19570463321655296	{'Price': '$4.12', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	51
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	30
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	54
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	57
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	21
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.7589600205856137	0.36252362476415817	0.5543055555555556	1.6757892009053275	0.15251215033551158	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	45
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	33
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	38
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	27
+0.5874083325455621	0.4353717096431129	0.58245	1.605230042188675	0.148956327975901	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	45
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	20
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	14
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	14
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	17
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.854724544734678	0.3185742230710885	0.4574166666666667	1.630715434472433	0.12455145145807953	{'Price': '$4.37', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	48
+0.3088861939476135	0.893637950855363	0.9132	2.115724144802977	0.2520728108815423	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	32
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.7586824279767646	0.42432797104314623	0.49416666666666664	1.6771770656865774	0.15908716164197897	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	48
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	33
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	20
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	33
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	12
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	26
+0.2500486437644134	0.8237437533799038	0.79175	1.865542397144317	0.16308150460481993	{'Price': '$3.98', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': 'Full price'}	42
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	27
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	45
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	45
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	17
+0.5762024061367292	0.7768404642833386	0.7881666666666667	2.1412095370867346	0.35279707051787773	{'Price': '$3.47', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	39
+0.2500486437644134	0.8237437533799038	0.79175	1.865542397144317	0.16308150460481993	{'Price': '$3.98', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': 'Full price'}	36
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	15
+0.5874083325455621	0.4353717096431129	0.58245	1.605230042188675	0.148956327975901	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	48
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.5874083325455621	0.4353717096431129	0.58245	1.605230042188675	0.148956327975901	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	45
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.8563532137764037	0.28546117674823435	0.51595	1.6577643905246382	0.12612686481643434	{'Price': '$4.37', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	54
+0.7589600205856137	0.36252362476415817	0.5543055555555556	1.6757892009053275	0.15251215033551158	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	51
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	12
+0.5762024061367292	0.7768404642833386	0.7881666666666667	2.1412095370867346	0.35279707051787773	{'Price': '$3.47', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	48
+0.7603110970184904	0.39121492472029207	0.5527	1.7042260217387823	0.16439787835242733	{'Price': '$4.12', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.7589600205856137	0.36252362476415817	0.5543055555555556	1.6757892009053275	0.15251215033551158	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	51
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	41
+0.30725752490588765	0.9267509971782172	0.8546666666666667	2.0886751887507717	0.24336737397293884	{'Price': '$3.47', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': 'Full price'}	51
+0.5762024061367292	0.7768404642833386	0.7881666666666667	2.1412095370867346	0.35279707051787773	{'Price': '$3.47', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	39
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	42
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	45
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	45
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.7589600205856137	0.36252362476415817	0.5543055555555556	1.6757892009053275	0.15251215033551158	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	60
+0.7310551187691585	0.36212270682133013	0.43711666666666665	1.5302944922571553	0.11571862010030072	{'Price': '$4.37', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	51
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.43255561991313296	0.8500894671051213	0.9335	2.2161450870182544	0.34325819649299943	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	27
+0.2500486437644134	0.8237437533799038	0.79175	1.865542397144317	0.16308150460481993	{'Price': '$3.98', 'Delivery': '20 days', 'Payment': 'Upon delivery', 'Returns': 'Full price'}	33
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.7603110970184904	0.39121492472029207	0.5527	1.7042260217387823	0.16439787835242733	{'Price': '$4.12', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	51
+0.5762024061367292	0.7768404642833386	0.7881666666666667	2.1412095370867346	0.35279707051787773	{'Price': '$3.47', 'Delivery': '45 days', 'Payment': 'Upon delivery', 'Returns': '5% spoilage allowed'}	45
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	27
+0.3567684560221456	0.8643383497266499	0.8647555555555556	2.085862361304351	0.26666351060807664	{'Price': '$3.47', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': 'Full price'}	42
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	36
+0.5778310751784551	0.7437274179604845	0.8467	2.1682584931389393	0.3638683204410852	{'Price': '$3.47', 'Delivery': '20 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	32
+0.9039578832420866	0.3179659218985093	0.40736666666666665	1.6292904718072625	0.11708850548687308	{'Price': '$4.12', 'Delivery': '45 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	48
+0.9042354758509359	0.25616157561952124	0.46750555555555556	1.6279026070260127	0.10828849146067565	{'Price': '$4.37', 'Delivery': '30 days', 'Payment': '30 days after delivery', 'Returns': '5% spoilage allowed'}	57
