@@ -1,3 +1,6 @@
+import itertools
+import random
+
 from .rl_negotiator import *
 from .observer import *
 from .domain_loader import load_genius_domain
@@ -9,27 +12,93 @@ PENALTY = -1.
 #ここは強化学習の環境や初期条件を設定する場所
 
 class NaiveEnv(gym.Env):
-    def __init__(self, domain: str = 'party', opponent: str = ['Boulware', 'Conceder'], test: bool = False, **kwargs):
+    def __init__(
+        self,
+        domain: str = 'party',
+        opponent: str = ['Boulware', 'Conceder'],
+        test: bool = False,
+        random_train: bool = True,
+        **kwargs,
+    ):
         super().__init__()
         self.test = test
-        
-        # ドメイン読み込み
-        self.domain, (self.util1, self.util2, self.util3) = load_genius_domain(domain)
+        self.domain_names = self._normalize_domains(domain)
+        self.opponent_pairs = self._normalize_opponent_pairs(opponent)
+        self.scenarios = list(itertools.product(self.domain_names, self.opponent_pairs))
+        self.random_train = random_train
+        self.scenario_index = -1
 
         #初期設定
         self.my_agent: Optional[RLNegotiator] = None
         self.session: Optional[MySAOMechanism] = None
-        
-        # 設定読み込み
-        self.opponent = opponent
-        self.my_util = self.util3
-        self.opp_util1 = self.util2
-        self.opp_util2 = self.util1
+        self.domain_name = None
+        self.domain = None
+        self.util1 = None
+        self.util2 = None
+        self.util3 = None
+        self.opponent = None
+        self.my_util = None
+        self.opp_util1 = None
+        self.opp_util2 = None
+        self._select_scenario()
+        self.scenario_index = -1
 
         self.state = None
         self.observation = None
         self.reward_range = [PENALTY, 1.0]
         self.seed()
+
+    @staticmethod
+    def _normalize_domains(domain):
+        if isinstance(domain, str):
+            return [domain]
+        domains = list(domain)
+        if not domains:
+            raise ValueError('At least one domain is required')
+        return domains
+
+    @staticmethod
+    def _normalize_opponent_pairs(opponent):
+        if opponent is None:
+            return [['Boulware', 'Conceder']]
+        if isinstance(opponent, str):
+            return [[opponent, opponent]]
+        if len(opponent) == 2 and all(isinstance(agent, str) for agent in opponent):
+            return [list(opponent)]
+
+        pairs = []
+        for pair in opponent:
+            if isinstance(pair, str):
+                pairs.append([pair, pair])
+                continue
+            pair = list(pair)
+            if len(pair) != 2:
+                raise ValueError('Each opponent setting must contain exactly two opponents')
+            pairs.append(pair)
+        if not pairs:
+            raise ValueError('At least one opponent setting is required')
+        return pairs
+
+    def _cleanup_ufuns(self):
+        for ufun in (self.my_util, self.opp_util1, self.opp_util2):
+            if ufun is not None and hasattr(ufun, '_ami'):
+                del ufun._ami
+
+    def _select_scenario(self):
+        if self.random_train and len(self.scenarios) > 1:
+            domain_name, opponent = random.choice(self.scenarios)
+        else:
+            self.scenario_index = (self.scenario_index + 1) % len(self.scenarios)
+            domain_name, opponent = self.scenarios[self.scenario_index]
+
+        self.domain_name = domain_name
+        self.domain, (self.util1, self.util2, self.util3) = load_genius_domain(domain_name)
+
+        # 設定読み込み
+        self.opponent = list(opponent)
+        self.my_util = self.util3
+        self.opp_util1 = self.util2
+        self.opp_util2 = self.util1
 
     def get_opponent(self, add_noise=False):
         if self.opponent[self.agent_number] == 'Boulware':
@@ -57,15 +126,16 @@ class NaiveEnv(gym.Env):
         return opponent
 
     def close(self):
-        del self.domain
-        del self.util1
-        del self.util2
-        del self.util3
-        del self.my_util
-        del self.opp_util1
-        del self.opp_util2
-        del self.my_agent
-        del self.session
+        self._cleanup_ufuns()
+        self.domain = None
+        self.util1 = None
+        self.util2 = None
+        self.util3 = None
+        self.my_util = None
+        self.opp_util1 = None
+        self.opp_util2 = None
+        self.my_agent = None
+        self.session = None
 
     def seed(self, seed=None):
         pass
@@ -96,16 +166,13 @@ class RLBOAEnv(NaiveEnv):
         test=False,
         n_actions=10,
         add_noise=True,
+        random_train=True,
         **kwargs,
     ):
         if opponent is None:
             opponent = ['Boulware', 'Conceder']
-        if isinstance(opponent, str):
-            opponent = [opponent, opponent]
-        if len(opponent) != 2:
-            raise ValueError('RLBOAEnv expects exactly two opponents for a three-party negotiation')
 
-        super().__init__(domain, opponent, test=test, **kwargs)
+        super().__init__(domain, opponent, test=test, random_train=random_train, **kwargs)
         self.n_actions = n_actions
         self.add_noise = add_noise
         self.opponent_names = []
@@ -115,13 +182,15 @@ class RLBOAEnv(NaiveEnv):
 
     def reset(self):
         # セッション，エージェントの作成
-        for ufun in (self.my_util, self.opp_util1, self.opp_util2):
-            if hasattr(ufun, '_ami'):
-                del ufun._ami
+        self._cleanup_ufuns()
         if self.session is not None:
             if self.my_agent is not None and hasattr(self.my_agent, 'om'):
                 del self.my_agent.om
             self.session.reset()
+
+        self._select_scenario()
+        self.observer = RLBOAObserve(self.domain, self.my_util)
+        self.observation_space = self.observer.observation_space
 
         self.session = MySAOMechanism(issues=self.domain, n_steps=80, avoid_ultimatum=False)
         self.my_agent = RLBOANegotiator(n_ranges=self.n_actions)

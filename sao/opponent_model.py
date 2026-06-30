@@ -24,11 +24,10 @@ class NoModel(AbstractOpponentModel):
 # Learns the issue weights based on how often the value of an issue changes
 # The value weights are estimated based on the frequency they are offered
 class HardHeadedFrequencyModel(AbstractOpponentModel):
-    weights = {}
-    evaluates = {}
-    prevOffer = None
-
     def __init__(self, ufun, learn_coef=0.2, learn_value_addition=1):
+        self.weights = {}
+        self.evaluates = {}
+        self.prevOffer = None
         self.amountOfIssues = len(ufun.weights)
         self.learnCoef = learn_coef
         self.learnValueAddition = learn_value_addition
@@ -70,12 +69,12 @@ class HardHeadedFrequencyModel(AbstractOpponentModel):
 # The utility of a bid is the sum of the score of its values divided by the best possible score
 # The model only uses the first 100 unique bids for its estimation
 class CUHKAgentValueModel(AbstractOpponentModel):
-    evaluates = {}
-    bid_history = []
     maximumBidsStored = 100
-    maxPossibleTotal = 0
 
     def __init__(self, ufun):
+        self.evaluates = {}
+        self.bid_history = []
+        self.maxPossibleTotal = 0
         for k in ufun.issue_utilities.keys():
             self.evaluates[k] = {i: 0.0 for i in ufun.issue_utilities[k].mapping.keys()}
 

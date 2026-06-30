@@ -30,19 +30,12 @@ ISSUE_NAMES = [
     'Lunch',
     'SmartPhone',
     'Kitchen',
-    'Travel',
-    'party',
 ]
 AGENT_LIST = [
     'Boulware',
     'Linear',
     'Conceder',
-    'TitForTat1',
-    'TitForTat2',
-    'AgentK',
-    'HardHeaded',
     'Atlas3',
-    'AgentGG',
 ]
 CHECKPOINT_NAME = 'checkpoint.zip'
 

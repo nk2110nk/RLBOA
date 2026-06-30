@@ -18,6 +18,7 @@ dill.extend(True)
 
 
 ENV_NAME = 'RLBOA-{}-{}-{}-v0'
+GENERAL_ENV_NAME = 'RLBOA-General-v0'
 MODEL_DIR_NAME = 'RLBOA_Negotiator'
 CHECKPOINT_NAME = 'checkpoint.zip'
 ISSUE_NAMES = [
@@ -63,10 +64,30 @@ def register_neg_env(issue, agent, n_actions=10, add_noise=True):
     return env_name
 
 
+def register_general_env(issues, agent_pairs, n_actions=10, add_noise=True, random_train=True):
+    try:
+        register(
+            id=GENERAL_ENV_NAME,
+            entry_point='envs.env:RLBOAEnv',
+            kwargs={
+                'domain': issues,
+                'opponent': agent_pairs,
+                'n_actions': n_actions,
+                'add_noise': add_noise,
+                'random_train': random_train,
+            },
+        )
+    except GymError:
+        # Gym raises if this id has already been registered in this process.
+        pass
+    return GENERAL_ENV_NAME
+
+
 def run_rl(args):
     (
         issue,
         agent,
+        model_type,
         timesteps,
         n_envs,
         eval_episodes,
@@ -74,10 +95,19 @@ def run_rl(args):
         add_noise,
         save_path,
         checkpoint_name,
+        random_train,
     ) = args
 
-    env_name = register_neg_env(issue, agent, n_actions, add_noise)
-    f_name = env_name.split('-', maxsplit=1)[1]
+    if model_type == 'general':
+        env_name = register_general_env(issue, agent, n_actions, add_noise, random_train=random_train)
+        domain_label = '-'.join(issue)
+        opponent_label = '_'.join('-'.join(pair) for pair in agent)
+        f_name = f'General-{domain_label}_{opponent_label}-v0'
+    else:
+        env_name = register_neg_env(issue, agent, n_actions, add_noise)
+        domain_label = issue
+        opponent_label = f'{agent[0]}-{agent[1]}'
+        f_name = env_name.split('-', maxsplit=1)[1]
     env = make_vec_env(env_name, n_envs=n_envs)
 
     model = PPO('MlpPolicy', env, verbose=1, device='cpu')
@@ -97,7 +127,7 @@ def run_rl(args):
     print(f'mean_reward:{mean_reward:.2f} +/- {std_reward:.2f}')
     with open(os.path.join(save_path, 'result.csv'), 'a') as f:
         f.write(
-            f'{issue},{agent[0]}-{agent[1]},'
+            f'{model_type},{domain_label},{opponent_label},'
             f'{timesteps},{n_envs},{n_actions},{model_path},{mean_reward},{std_reward}\n'
         )
 
@@ -120,6 +150,18 @@ def parse_args():
     parser.add_argument('--n-actions', type=int, default=10)
     parser.add_argument('--no-noise', action='store_true')
     parser.add_argument('--processes', type=int, default=None)
+    parser.add_argument(
+        '--model-type',
+        '--mode',
+        choices=['expert', 'general'],
+        default='expert',
+        help='expert trains one checkpoint per domain/opponent pair; general trains one checkpoint over all selected settings',
+    )
+    parser.add_argument(
+        '--ordered-train',
+        action='store_true',
+        help='In general mode, cycle through settings instead of sampling them randomly on reset',
+    )
     return parser.parse_args()
 
 
@@ -129,6 +171,13 @@ def normalize_agents(agents):
     if len(agents) == 1:
         return [agents[0], agents[0]]
     return agents
+
+
+def build_agent_pairs(agents):
+    agents = normalize_agents(agents)
+    if len(agents) == 2:
+        return [agents]
+    return [list(pair) for pair in combinations_with_replacement(agents, 2)]
 
 
 def build_default_save_root(issues, agents, current_time, save_path):
@@ -142,14 +191,18 @@ def build_default_save_root(issues, agents, current_time, save_path):
 
 
 def build_jobs(args):
+    if args.model_type == 'general':
+        if not (args.issue and args.agents):
+            raise ValueError('general mode requires --issue/-i and --agents/-a')
+        return [(
+            args.issue,
+            build_agent_pairs(args.agents),
+        )], args.issue, args.agents
+
     if args.issue or args.agents:
         if not (args.issue and args.agents):
             raise ValueError('--issue/-i and --agents/-a must be specified together')
-        agents = normalize_agents(args.agents)
-        if len(agents) == 2:
-            pairs = [agents]
-        else:
-            pairs = [list(pair) for pair in combinations_with_replacement(agents, 2)]
+        pairs = build_agent_pairs(args.agents)
         return [(issue, pair) for issue in args.issue for pair in pairs], args.issue, args.agents
 
     if args.domain or args.opponent1 or args.opponent2:
@@ -175,7 +228,7 @@ def main():
     save_path = os.path.join(run_root, MODEL_DIR_NAME)
     os.makedirs(save_path, exist_ok=True)
     with open(os.path.join(save_path, 'result.csv'), 'w') as f:
-        f.write('domain,opponents,total_timesteps,n_envs,n_actions,checkpoint,mean,std\n')
+        f.write('model_type,domain,opponents,total_timesteps,n_envs,n_actions,checkpoint,mean,std\n')
 
     single_job = len(jobs) == 1
 
@@ -183,6 +236,7 @@ def main():
         (
             issue,
             agent,
+            args.model_type,
             args.timesteps,
             args.n_envs,
             args.eval_episodes,
@@ -190,6 +244,7 @@ def main():
             not args.no_noise,
             save_path,
             CHECKPOINT_NAME if single_job else None,
+            not args.ordered_train,
         )
         for issue, agent in jobs
     ]

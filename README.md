@@ -97,6 +97,9 @@ PHRI_Negotiator と同じ出力形式に寄せています。
 python3 train.py -a Boulware Conceder -i Laptop
 ```
 
+これは `--model-type expert` の省略形で、指定した1ドメイン・1相手ペアに対応する
+expert model を学習します。
+
 短く動作確認する場合:
 
 ```bash
@@ -120,6 +123,32 @@ python3 train.py \
   -i Laptop ItexvsCypress IS_BT_Acquisition Grocery thompson Car EnergySmall_A
 ```
 
+デフォルトの `expert` モードでは、上の指定は各ドメイン・各相手ペアごとに
+別々の checkpoint を学習します。
+
+複数ドメイン・複数相手ペアを1つのpolicyで学習する general model:
+
+```bash
+python3 train.py \
+  --model-type general \
+  -a Boulware Conceder Linear Atlas3 \
+  -i Laptop ItexvsCypress IS_BT_Acquisition Grocery thompson Car EnergySmall_A
+```
+
+general model では、各episodeのreset時に、指定されたドメインと相手ペアの
+組み合わせから1つを選んで学習します。RLBOA本体の手法は変えず、RLが選ぶ
+utility bin、Opponent Model、Acceptance Conditionはexpert modelと同じです。
+
+ランダムではなく順番に設定を回したい場合:
+
+```bash
+python3 train.py \
+  --model-type general \
+  --ordered-train \
+  -a Boulware Conceder Linear Atlas3 \
+  -i Laptop ItexvsCypress IS_BT_Acquisition Grocery thompson Car EnergySmall_A
+```
+
 主な学習オプション:
 
 ```text
@@ -132,6 +161,8 @@ python3 train.py \
 --n-actions            RLBOA の utility bin 数。デフォルトは 10
 --no-noise             baseline negotiator の noise を無効化
 --processes            複数ジョブ実行時のプロセス数
+--model-type, --mode   expert または general。デフォルトは expert
+--ordered-train        general modeで設定をランダムではなく順番に選ぶ
 ```
 
 ## 一括学習
@@ -220,6 +251,7 @@ RLBOA_Negotiator/
 
 PHRI_Negotiator は独自 PPO のため `checkpoint.pt` を使いますが、
 この RLBOA 実装は Stable-Baselines3 の PPO を使うため `checkpoint.zip` です。
+expert model でも general model でも、保存される checkpoint 名は同じです。
 
 ## テスト方法
 
@@ -230,6 +262,16 @@ python3 test_negotiator.py \
   -a Boulware Conceder \
   -i Laptop \
   -m ./results/Laptop_Boulware-Conceder/20260627-160401-TA/RLBOA_Negotiator/
+```
+
+general model も同じ指定で評価できます。1つの `checkpoint.zip` を、複数ドメイン・
+複数相手ペアに対してそのまま使います。
+
+```bash
+python3 test_negotiator.py \
+  -a Boulware Conceder Linear Atlas3 \
+  -i Laptop Car EnergySmall_A \
+  -m ./results/Laptop-ItexvsCypress-IS_BT_Acquisition-Grocery-thompson-Car-EnergySmall_A_Boulware-Conceder-Linear-Atlas3/20260627-160401-TA/RLBOA_Negotiator/
 ```
 
 試しに episode 数を減らす場合:
