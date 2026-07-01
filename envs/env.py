@@ -96,9 +96,9 @@ class NaiveEnv(gym.Env):
 
         # 設定読み込み
         self.opponent = list(opponent)
-        self.my_util = self.util3
+        self.my_util = self.util1
         self.opp_util1 = self.util2
-        self.opp_util2 = self.util1
+        self.opp_util2 = self.util3
 
     def get_opponent(self, add_noise=False):
         if self.opponent[self.agent_number] == 'Boulware':

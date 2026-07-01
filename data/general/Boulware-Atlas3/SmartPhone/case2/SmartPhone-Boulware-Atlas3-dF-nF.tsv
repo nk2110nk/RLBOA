@@ -1,0 +1,101 @@
+my_util	opp_util1	opp_util2	social	nash	agreement	step
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.8207080413860675	0.7120000000000001	0.7966187869850282	2.3293268283710957	0.46549950841125315	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Camera'}	75
+0.4157768190233765	0.7019428571428572	0.2558769915557918	1.3735966677220257	0.0746781012720799	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Black Berry', ' Accessory': 'Good Battery'}	76
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.8207080413860675	0.7120000000000001	0.7966187869850282	2.3293268283710957	0.46549950841125315	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Camera'}	78
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0	0	0	0	0		80
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0	0	0	0	0		80
+0.8207080413860675	0.7120000000000001	0.7966187869850282	2.3293268283710957	0.46549950841125315	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Camera'}	78
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.732810694426063	0.7657142857142858	0.7745782336166379	2.2731032137569867	0.4346341404420886	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	75
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.8207080413860675	0.7120000000000001	0.7966187869850282	2.3293268283710957	0.46549950841125315	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Camera'}	75
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.5540110975884505	0.6329142857142858	0.9775768628701934	2.1645022461729297	0.34277905481558	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'Verizon Wireless', 'OS': 'Android', ' Accessory': 'Blue tooth'}	78
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.7605624141283882	0.5552	0.8401920557481454	2.1559544698765336	0.3547830702291233	{'Maker': 'Apple', 'Screen Size': '2.4', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	78
+0.5958064948090214	0.5539428571428571	0.311597310865826	1.4613466628177045	0.1028404340060405	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Black', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Water Proof'}	79
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.945744957180106	0.6880000000000002	0.6993708158980259	2.333115773078132	0.4550613785661321	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'iOS', ' Accessory': 'Camera'}	78
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.5958064948090214	0.5539428571428571	0.311597310865826	1.4613466628177045	0.1028404340060405	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Black', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Water Proof'}	79
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.4157768190233765	0.7019428571428572	0.2558769915557918	1.3735966677220257	0.0746781012720799	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Black Berry', ' Accessory': 'Good Battery'}	76
+0.7605624141283882	0.5552	0.8401920557481454	2.1559544698765336	0.3547830702291233	{'Maker': 'Apple', 'Screen Size': '2.4', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	78
+0	0	0	0	0		80
+0.4157768190233765	0.7019428571428572	0.2558769915557918	1.3735966677220257	0.0746781012720799	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Black Berry', ' Accessory': 'Good Battery'}	76
+0	0	0	0	0		80
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.7605624141283882	0.5552	0.8401920557481454	2.1559544698765336	0.3547830702291233	{'Maker': 'Apple', 'Screen Size': '2.4', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	78
+0.5958064948090214	0.5539428571428571	0.311597310865826	1.4613466628177045	0.1028404340060405	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Black', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Water Proof'}	79
+0.4157768190233765	0.7019428571428572	0.2558769915557918	1.3735966677220257	0.0746781012720799	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Black Berry', ' Accessory': 'Good Battery'}	76
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.8207080413860675	0.7120000000000001	0.7966187869850282	2.3293268283710957	0.46549950841125315	{'Maker': 'Apple', 'Screen Size': '3.6', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Camera'}	78
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.8212004031623876	0.5888	0.7953457814885321	2.20534618465092	0.38456781715131894	{'Maker': 'Apple', 'Screen Size': '2.8', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	78
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0.4157768190233765	0.7019428571428572	0.2558769915557918	1.3735966677220257	0.0746781012720799	{'Maker': 'Sony', 'Screen Size': '2.8', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Black Berry', ' Accessory': 'Good Battery'}	76
+0.7605624141283882	0.5552	0.8401920557481454	2.1559544698765336	0.3547830702291233	{'Maker': 'Apple', 'Screen Size': '2.4', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	78
+0.5365315478473887	0.8045714285714286	0.2918324068586076	1.6329353832774247	0.12597761628179413	{'Maker': 'Black Berry', 'Screen Size': '3.6', 'Color': 'White', 'Carrier': 'Verizon Wireless', 'OS': 'iOS', ' Accessory': 'Good Battery'}	73
+0.33026254725497267	0.9211428571428572	0.27488791917377375	1.5262933235716036	0.08362612414072612	{'Maker': 'Sony', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'Verizon Wireless', 'OS': 'Windows Mobile', ' Accessory': 'Good Battery'}	67
+0	0	0	0	0		80
+0.5388889814872423	0.8737142857142858	0.4430033226858237	1.8556065898873517	0.20858147011875014	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Black Berry', ' Accessory': 'Camera'}	70
+0.4694966859694135	0.9377142857142857	0.5648136349179613	1.9720246066016607	0.24866132055775478	{'Maker': 'HTC', 'Screen Size': '3.6', 'Color': 'Silver', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	65
+0.7605624141283882	0.5552	0.8401920557481454	2.1559544698765336	0.3547830702291233	{'Maker': 'Apple', 'Screen Size': '2.4', 'Color': 'Black', 'Carrier': 'AT and T Mobility', 'OS': 'Android', ' Accessory': 'Good Battery'}	78

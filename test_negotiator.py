@@ -126,9 +126,9 @@ def run_session(model_path, save_path, opponent, issue, det, noise, n_actions, p
         n_ranges=n_actions,
     )
     
-    my_util = util3
+    my_util = util1
     opp_util1 = util2
-    opp_util2 = util1
+    opp_util2 = util3
     session.add(my_agent, ufun=my_util)
     session.add(opponent0, ufun=opp_util1)
     session.add(opponent1, ufun=opp_util2)
@@ -205,6 +205,13 @@ def parse_args():
     parser.add_argument('--noise', action='store_true')
     parser.add_argument('--plot', '-p', action='store_true')
     parser.add_argument('--processes', type=int, default=None)
+    parser.add_argument(
+        '--model-type',
+        '--mode',
+        choices=['auto', 'expert', 'general'],
+        default='auto',
+        help='auto keeps the old behavior; general evaluates all combinations with replacement from --agents',
+    )
     return parser.parse_args()
 
 
@@ -216,15 +223,20 @@ def normalize_agents(agents):
     return agents
 
 
+def build_agent_pairs(agents, model_type='auto'):
+    agents = normalize_agents(agents)
+    if model_type == 'general':
+        return [list(pair) for pair in combinations_with_replacement(agents, 2)]
+    if len(agents) == 2:
+        return [agents]
+    return [list(pair) for pair in combinations_with_replacement(agents, 2)]
+
+
 def build_jobs(args):
     if args.issues or args.agents:
         if not (args.issues and args.agents):
             raise ValueError('--issues/-i and --agents/-a must be specified together')
-        agents = normalize_agents(args.agents)
-        if len(agents) == 2:
-            pairs = [agents]
-        else:
-            pairs = [list(pair) for pair in combinations_with_replacement(agents, 2)]
+        pairs = build_agent_pairs(args.agents, args.model_type)
         return [(issue, pair) for issue in args.issues for pair in pairs]
 
     if args.domain or args.opponent1 or args.opponent2:

@@ -1,0 +1,101 @@
+my_util	opp_util1	opp_util2	social	nash	agreement	step
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0	0	0	0	0		80
+0.9142857142857143	0.5718571428571428	0.19339405080213903	1.6795369079449962	0.10111430339408489	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.45640672268907556	0.44644999999999996	0.6249837662337663	1.5278404889228419	0.12734843050297662	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'Middle range model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	79
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.768235294117647	0.7248571428571429	0.3816923701298701	1.87478480710466	0.21254953398041035	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	78
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	75
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0	0	0	0	0		80
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0	0	0	0	0		80
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.6000638655462185	0.4989071428571429	0.7422727272727273	1.8412437356760885	0.22221875036962788	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Memory'}	78
+0.8458823529411764	0.7078571428571429	0.28301589954163486	1.8367553953399542	0.16945969402058952	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Tamrac', 'Accessory': 'Memory'}	75
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.9142857142857143	0.5718571428571428	0.19339405080213903	1.6795369079449962	0.10111430339408489	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.9142857142857143	0.5718571428571428	0.19339405080213903	1.6795369079449962	0.10111430339408489	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.20117497665732959	0.48462142857142854	0.9440000000000001	1.6297964052287583	0.09203405712399093	{'Maker': 'Canon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Battery Grip'}	78
+0.47006386554621843	0.5246214285714286	0.7790909090909091	1.773776203208556	0.19212816290900356	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	78
+0	0	0	0	0		80
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	75
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	78
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.6000638655462185	0.4989071428571429	0.7422727272727273	1.8412437356760885	0.22221875036962788	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Memory'}	78
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.9142857142857143	0.5718571428571428	0.19339405080213903	1.6795369079449962	0.10111430339408489	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.328635294117647	0.6690857142857144	0.9528571428571428	1.9505781512605043	0.20951916485186076	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Battery Grip'}	78
+0.768235294117647	0.7248571428571429	0.3816923701298701	1.87478480710466	0.21254953398041035	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	78
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0	0	0	0	0		80
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0	0	0	0	0		80
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	78
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	75
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	75
+0	0	0	0	0		80
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.45640672268907556	0.44644999999999996	0.6249837662337663	1.5278404889228419	0.12734843050297662	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'Middle range model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	79
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.47006386554621843	0.5246214285714286	0.7790909090909091	1.773776203208556	0.19212816290900356	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	78
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.6000638655462185	0.4989071428571429	0.7422727272727273	1.8412437356760885	0.22221875036962788	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Memory'}	78
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.768235294117647	0.7248571428571429	0.3816923701298701	1.87478480710466	0.21254953398041035	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	75
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0	0	0	0	0		80
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0	0	0	0	0		80
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.3912993464052287	0.8440571428571428	0.5624921695951108	1.7978486588574822	0.18577935596651232	{'Maker': 'Nikon', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Electronic Flash'}	70
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.8539495798319328	0.7505714285714287	0.3296923701298701	1.9342133785332316	0.21131637608733103	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	75
+0.9142857142857143	0.5718571428571428	0.19339405080213903	1.6795369079449962	0.10111430339408489	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.768235294117647	0.7248571428571429	0.3816923701298701	1.87478480710466	0.21254953398041035	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	75
+0	0	0	0	0		80
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.4455495798319328	0.7568571428571429	0.3076185064935065	1.510025229182582	0.10373430741227455	{'Maker': 'Pentax', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Strap'}	73
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.45640672268907556	0.44644999999999996	0.6249837662337663	1.5278404889228419	0.12734843050297662	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'Middle range model', 'Tripod': 'GITZO', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	79
+0.5086352941176471	0.7033714285714288	0.7319480519480519	1.9439547746371277	0.26186139357118854	{'Maker': 'Canon', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Electronic Flash'}	75
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67
+0.9142857142857143	0.5718571428571428	0.19339405080213903	1.6795369079449962	0.10111430339408489	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0	0	0	0	0		80
+0.768235294117647	0.7248571428571429	0.3816923701298701	1.87478480710466	0.21254953398041035	{'Maker': 'Sony', 'Body': 'Full size', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	75
+0	0	0	0	0		80
+0.5530453781512604	0.9054857142857143	0.5416739877769291	2.0002050802139038	0.2712566229133914	{'Maker': 'Nikon', 'Body': 'APS-C', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Lowepro', 'Accessory': 'Memory'}	67

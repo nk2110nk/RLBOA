@@ -1,0 +1,101 @@
+my_util	opp_util1	opp_util2	social	nash	agreement	step
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	40
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	72
+0.81	0.8285714285714285	0.805	2.4435714285714285	0.54027	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Leek'}	73
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	69
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	7
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.645	0.9142857142857144	0.785	2.3442857142857143	0.46292571428571433	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Spinach'}	69
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	63
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	19
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	16
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	58
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	72
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	34
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	25
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	13
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.75	0.8535714285714285	0.855	2.4585714285714286	0.5473526785714286	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Potatoes'}	72
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	72
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	49
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	16
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	19
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	4
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	19
+0.81	0.8285714285714285	0.805	2.4435714285714285	0.54027	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Leek'}	73
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	43
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	52
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	72
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	22
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	13
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	63
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.81	0.8285714285714285	0.805	2.4435714285714285	0.54027	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Leek'}	73
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	52
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	34
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	34
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	28
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	69
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.81	0.8285714285714285	0.805	2.4435714285714285	0.54027	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Leek'}	73
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.81	0.8285714285714285	0.805	2.4435714285714285	0.54027	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Leek'}	73
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	55
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	16
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	34
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	37
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	25
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	58
+0.57	0.8785714285714286	0.88	2.3285714285714283	0.44069142857142857	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Potatoes'}	72
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.75	0.8535714285714285	0.855	2.4585714285714286	0.5473526785714286	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Potatoes'}	72
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	4
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	37
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	72
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	10
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	16
+0.57	0.8785714285714286	0.88	2.3285714285714283	0.44069142857142857	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Potatoes'}	72
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	22
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	63
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	72
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	22
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	34
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	49
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	28
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	55
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	58
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	4
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	25
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	49
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	63
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	63
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	63
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	52
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.825	0.8892857142857142	0.76	2.474285714285714	0.5575821428571428	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Spinach'}	72
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	10
+0.645	0.9142857142857144	0.785	2.3442857142857143	0.46292571428571433	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Spinach'}	69
+0.225	0.9749999999999999	0.655	1.855	0.143690625	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Leek'}	61
+0.81	0.8285714285714285	0.805	2.4435714285714285	0.54027	{'Bread type': 'Baguette', 'Fruit': 'Pears', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Leek'}	73
+0.57	0.8785714285714286	0.88	2.3285714285714283	0.44069142857142857	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Peanut butter', 'Vegetables': 'Potatoes'}	72
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	31
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	31
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	66
+0.30500000000000005	0.9339285714285713	0.73	1.9689285714285714	0.20793919642857142	{'Bread type': 'Croissants', 'Fruit': 'Bananas', 'Snacks': 'Doughnuts', 'Spreads': 'Sandwichspread', 'Vegetables': 'Potatoes'}	67
+0.43500000000000005	0.9642857142857143	0.865	2.2642857142857142	0.3628366071428572	{'Bread type': 'Baguette', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	69
+0.165	0.9999999999999999	0.705	1.8699999999999997	0.11632499999999998	{'Bread type': 'Croissants', 'Fruit': 'Apples', 'Snacks': 'Doughnuts', 'Spreads': 'Cheese', 'Vegetables': 'Potatoes'}	22

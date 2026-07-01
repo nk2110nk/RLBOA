@@ -1,0 +1,101 @@
+my_util	opp_util1	opp_util2	social	nash	agreement	step
+0	0	0	0	0		80
+0.2813940508021391	0.9071428571428571	0.5888214285714286	1.7773583365164247	0.1503052683362266	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	67
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.6913088235294118	0.5496000000000001	0.5522	1.793108823529412	0.20980470650117652	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	55
+0.2813940508021391	0.9071428571428571	0.5888214285714286	1.7773583365164247	0.1503052683362266	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'GITZO', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	67
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	52
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	43
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	72
+0	0	0	0	0		80
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.39912132352941176	0.6900000000000001	0.589	1.6781213235294117	0.16220689709558825	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	66
+0	0	0	0	0		80
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	63
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	63
+0.39912132352941176	0.6900000000000001	0.589	1.6781213235294117	0.16220689709558825	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	72
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	63
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	63
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0	0	0	0	0		80
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	63
+0.39912132352941176	0.6900000000000001	0.589	1.6781213235294117	0.16220689709558825	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	66
+0.6913088235294118	0.5496000000000001	0.5522	1.793108823529412	0.20980470650117652	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0	0	0	0	0		80
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	40
+0.7841659663865547	0.4953142857142857	0.7222000000000001	2.0016802521008406	0.2805086949081393	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	66
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0	0	0	0	0		80
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	52
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.39912132352941176	0.6900000000000001	0.589	1.6781213235294117	0.16220689709558825	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	75
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0.39912132352941176	0.6900000000000001	0.589	1.6781213235294117	0.16220689709558825	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.13168816844919784	0.9435294117647058	0.6145714285714285	1.6897890087853322	0.07636152025816742	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'Artizan and Artist', 'Accessory': 'Memory'}	64
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0	0	0	0	0		80
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0.6913088235294118	0.5496000000000001	0.5522	1.793108823529412	0.20980470650117652	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.13815875668449196	0.9858823529411764	0.5635714285714285	1.6876125381970968	0.07676309501022333	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'Tamrac', 'Accessory': 'Memory'}	61
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0	0	0	0	0		80
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	55
+0	0	0	0	0		80
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0.526438693659282	0.8053142857142856	0.7307714285714286	2.0625244079449963	0.30980952446959453	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	72
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.3296923701298701	0.8539495798319328	0.7505714285714287	1.9342133785332316	0.2113163760873311	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'Domke', 'Accessory': 'Memory'}	70
+0	0	0	0	0		80
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	69
+0.14139405080213902	1.0	0.5975714285714285	1.7389654793735674	0.08449304492933535	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	37
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	75
+0	0	0	0	0		80
+0.23425119365928188	0.9457142857142856	0.7675714285714287	1.947536907944996	0.17004370637912958	{'Maker': 'Sony', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78
+0.7841659663865547	0.4953142857142857	0.7222000000000001	2.0016802521008406	0.2805086949081393	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Battery Grip'}	78
+0.23025119365928187	0.7711111111111111	0.7361428571428572	1.7375051619132502	0.13070161495918065	{'Maker': 'Sony', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	73
+0	0	0	0	0		80
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	69
+0.23025119365928187	0.7711111111111111	0.7361428571428572	1.7375051619132502	0.13070161495918065	{'Maker': 'Sony', 'Body': 'compact', 'Lens': 'High end model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	73
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.4335815508021391	0.8596	0.5607714285714286	1.8539529793735676	0.20900326919689846	{'Maker': 'Nikon', 'Body': 'Micro Four Thirds', 'Lens': 'Middle range model', 'Tripod': 'Manfrotto', 'Bag': 'National Geographic', 'Accessory': 'Memory'}	78

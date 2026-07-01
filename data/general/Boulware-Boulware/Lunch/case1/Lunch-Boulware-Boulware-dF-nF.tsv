@@ -1,0 +1,101 @@
+my_util	opp_util1	opp_util2	social	nash	agreement	step
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0	0	0	0	0		80
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0	0	0	0	0		80
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0	0	0	0	0		80
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0	0	0	0	0		80
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77
+0.7381231754047208	0.5417862330627928	0.4664	1.7463094084675135	0.18651568021820936	{'salad': 'green', 'soup': 'corn(ice)', 'carbohydrate': 'rice', 'main': 'beef', 'drink': 'tea', 'dessert': 'sherbet'}	79
+0.5490011112351825	0.6143054519217505	0.6236	1.7869065631569332	0.210311828713255	{'salad': 'sea', 'soup': 'miso', 'carbohydrate': 'bread(french)', 'main': 'chicken', 'drink': 'apple', 'dessert': 'sherbet'}	77

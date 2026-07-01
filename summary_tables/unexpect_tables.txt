@@ -1,0 +1,69 @@
+=== general / my_util ===
+                   Coffee  Camera  Lunch  SmartPhone  Kitchen  Average
+Boulware-Boulware   0.386   0.356  0.338       0.493    0.847    0.484
+Boulware-Conceder   0.620   0.342  0.473       0.473    0.781    0.538
+  Boulware-Linear   0.589   0.423  0.541       0.498    0.807    0.571
+  Boulware-Atlas3   0.538   0.337  0.448       0.514    0.815    0.530
+Conceder-Conceder   0.703   0.601  0.606       0.663    0.849    0.685
+  Conceder-Linear   0.586   0.522  0.571       0.632    0.838    0.630
+  Conceder-Atlas3   0.593   0.505  0.580       0.627    0.818    0.625
+    Linear-Linear   0.603   0.529  0.605       0.726    0.878    0.669
+    Linear-Atlas3   0.666   0.630  0.654       0.662    0.888    0.700
+    Atlas3-Atlas3   0.677   0.646  0.673       0.679    0.889    0.713
+          Average   0.596   0.489  0.549       0.597    0.841    0.614
+
+=== general / social ===
+                   Coffee  Camera  Lunch  SmartPhone  Kitchen  Average
+Boulware-Boulware   1.218   1.104  0.949       1.428    2.583    1.456
+Boulware-Conceder   1.896   1.758  1.774       1.942    2.491    1.972
+  Boulware-Linear   1.713   1.734  1.740       1.884    2.551    1.924
+  Boulware-Atlas3   1.640   1.148  1.354       1.775    2.573    1.698
+Conceder-Conceder   1.971   1.752  1.796       1.895    2.362    1.955
+  Conceder-Linear   1.955   1.840  1.802       2.122    2.560    2.056
+  Conceder-Atlas3   1.884   1.825  1.795       2.099    2.504    2.021
+    Linear-Linear   1.935   1.816  1.810       2.107    2.696    2.073
+    Linear-Atlas3   1.883   1.712  1.708       1.971    2.719    1.999
+    Atlas3-Atlas3   1.894   1.820  1.770       2.075    2.747    2.061
+          Average   1.799   1.651  1.650       1.930    2.578    1.922
+
+=== general / nash ===
+                   Coffee  Camera  Lunch  SmartPhone  Kitchen  Average
+Boulware-Boulware   0.143   0.116  0.103       0.191    0.640    0.239
+Boulware-Conceder   0.219   0.120  0.161       0.225    0.580    0.261
+  Boulware-Linear   0.210   0.182  0.191       0.263    0.615    0.292
+  Boulware-Atlas3   0.185   0.115  0.149       0.258    0.631    0.268
+Conceder-Conceder   0.268   0.193  0.204       0.248    0.486    0.280
+  Conceder-Linear   0.256   0.205  0.193       0.328    0.614    0.319
+  Conceder-Atlas3   0.220   0.179  0.177       0.313    0.570    0.292
+    Linear-Linear   0.253   0.200  0.215       0.343    0.723    0.347
+    Linear-Atlas3   0.226   0.171  0.185       0.290    0.741    0.322
+    Atlas3-Atlas3   0.224   0.178  0.175       0.318    0.766    0.332
+          Average   0.220   0.166  0.175       0.278    0.637    0.295
+
+=== general / step ===
+                   Coffee  Camera   Lunch  SmartPhone  Kitchen  Average
+Boulware-Boulware  78.775  78.295  79.635      78.097   71.145   77.189
+Boulware-Conceder  53.052  37.648  58.517      36.348   28.012   42.715
+  Boulware-Linear  67.797  67.782  70.490      62.000   36.825   60.979
+  Boulware-Atlas3  72.863  74.712  74.908      70.423   40.362   66.654
+Conceder-Conceder   8.508   9.745  10.163       7.333    4.695    8.089
+  Conceder-Linear  28.668  23.247  29.005      13.667    8.083   20.534
+  Conceder-Atlas3  37.452  29.642  32.555      20.663   10.250   26.112
+    Linear-Linear  43.550  46.615  48.328      41.137   15.670   39.060
+    Linear-Atlas3  44.915  49.422  52.975      43.585   17.367   41.653
+    Atlas3-Atlas3  51.755  51.747  49.947      48.137   20.515   44.420
+          Average  48.733  46.885  50.652      42.139   25.292   42.740
+
+=== general / agreement ===
+                     Coffee    Camera     Lunch  SmartPhone   Kitchen   Average
+Boulware-Boulware   65.333%   64.167%   54.500%     76.000%   99.833%   71.967%
+Boulware-Conceder   96.500%   99.833%   99.667%    100.000%  100.000%   99.200%
+  Boulware-Linear   86.833%   92.500%   94.000%     93.000%  100.000%   93.267%
+  Boulware-Atlas3   87.833%   64.333%   74.833%     88.500%  100.000%   83.100%
+Conceder-Conceder  100.000%  100.000%  100.000%    100.000%  100.000%  100.000%
+  Conceder-Linear  100.000%  100.000%  100.000%    100.000%  100.000%  100.000%
+  Conceder-Atlas3  100.000%  100.000%  100.000%    100.000%  100.000%  100.000%
+    Linear-Linear  100.000%  100.000%  100.000%    100.000%  100.000%  100.000%
+    Linear-Atlas3  100.000%  100.000%   98.500%    100.000%  100.000%   99.700%
+    Atlas3-Atlas3  100.000%  100.000%  100.000%    100.000%  100.000%  100.000%
+          Average   93.650%   92.083%   92.150%     95.750%   99.983%   94.723%
